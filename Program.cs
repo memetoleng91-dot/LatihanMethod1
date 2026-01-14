@@ -1,7 +1,7 @@
 ﻿
-static void tambah ()
+static void tambah (int a, int b)
 {
-    int a = 10, b = 2, c = 0;
+    int  c = 0;
 
 
      c = a + b;
@@ -11,34 +11,34 @@ static void tambah ()
 
 
 
-static void kurang()
+static void kurang(int a, int b)
 {
-    int a = 10, b = 2, c = 0;
+    int  c = 0;
 
 
     c = a - b;
     Console.WriteLine($"{a} - {b} = {c}");
 }
 
-static void kali()
+static void kali(int a, int b)
 {
-    int a = 10, b = 2, c = 0;
+    int c = 0;
 
 
     c = a * b;
     Console.WriteLine($"{a} * {b} = {c}");
 }
 
-static void bagi ()
+static void bagi (int a, int b)
 {
-    int a = 10, b = 2, c = 0;
+    int  c = 0;
 
 
     c = a / b;
     Console.WriteLine($"{a} / {b} = {c}");
 }
 
-tambah();
-kurang();
-kali();
-bagi();
+tambah(9,2);
+kurang(2,5);
+kali(1,5);
+bagi(50,2);
